@@ -1,0 +1,98 @@
+body{
+    font-family: 'Satisfy', cursive;
+    
+}
+.heroimage{
+    background: url(images/heroimage.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover;
+    position: relative;
+    height: 110vh;
+    margin: -8px;
+
+}
+ul{
+    background-color: transparent;
+    text-align:end;
+    white-space: nowrap;
+    position: sticky;
+    top: 0px;
+    margin:0rem;
+
+}
+li{
+    color: white;
+    white-space: nowrap;
+    display: inline-block;
+    width:5;
+    margin-right: 5rem;
+    font-size: 20px;
+    position: relative;
+    
+}
+li a.home-tab{
+    text-decoration: none;
+    color: #EAC117;
+}
+
+li a.menu-tab{
+    text-decoration: none;
+    color: white;
+}
+
+li a.contact-tab{
+    text-decoration: none;
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    /* top:50px; */
+    color: wheat;
+    margin-top:10%;
+    margin-left: 53%;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+p.tagline{
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    text-align: center;
+    top:auto;
+    color: wheat;
+    margin-top:0px;
+    margin-left: 53%;
+    text-transform:uppercase;
+    
+}
+.logo-image{
+    width: 3%;
+    position:relative;
+    left: -55.5rem;
+}
+nav li a:hover{
+    text-decoration:none;
+    cursor: pointer;
+    color:#EAC117;
+}
+button{
+    color:rgb(14, 2, 37);
+    text-decoration: none;
+    border-radius:15px;
+    padding: 0.2em 5px ;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:gold;
+    border-style:none;
+}
+
+button:hover{
+    cursor: pointer;
+    color:#ff4501;
+}
+p.detail{
+    color:orangered;
+    margin-top: 100px;
+    position: relative;
+    font-size:2rem;
+}
